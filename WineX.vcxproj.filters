@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="WineX">
+      <UniqueIdentifier>{e9ff3884-382f-4d66-ae5c-c8e6c33e4c49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WineX\Application">
+      <UniqueIdentifier>{327856e5-f24f-4f72-abd4-b08ab754098b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WineX\System">
+      <UniqueIdentifier>{54b785e1-d285-494d-bdc4-3d24bfaf3621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WineX\Components">
+      <UniqueIdentifier>{cfc20322-3ed5-4b21-92e1-c9bcf20addb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WineX\Main">
+      <UniqueIdentifier>{70995a1f-92f1-408f-990c-d6ac7352efb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WineX\Include">
+      <UniqueIdentifier>{4ce7108f-8748-4d84-8f67-0e4875258d99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User">
+      <UniqueIdentifier>{925f61a1-00c2-408a-8daa-604dbe1f4ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WineX\Components\Transform">
+      <UniqueIdentifier>{ce65156b-5599-42c5-8eeb-a2e5de59a1dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WineX\Components\XMesh">
+      <UniqueIdentifier>{f7d36e50-00ae-41ea-a1d4-2a0fe9e56178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WineX\Components\Light">
+      <UniqueIdentifier>{b5e2357e-28c4-49d0-a05f-f23532eb2109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WineX\Components\Camera">
+      <UniqueIdentifier>{0166b9b1-bc29-40a4-9873-efe49bd865c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WineX\Components\Font">
+      <UniqueIdentifier>{12579902-0cf9-4c67-aeaa-5f7b20f86405}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WineX\Application.cpp">
+      <Filter>WineX\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="WineX\D3DApp.cpp">
+      <Filter>WineX\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="WineX\WinApp.cpp">
+      <Filter>WineX\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="WineX\Time.cpp">
+      <Filter>WineX\System</Filter>
+    </ClCompile>
+    <ClCompile Include="WineX\Scene.cpp">
+      <Filter>WineX\System</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>WineX\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="WineX\Director.cpp">
+      <Filter>WineX\System</Filter>
+    </ClCompile>
+    <ClCompile Include="HelloWorld.cpp">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="WineX\WineObject.cpp">
+      <Filter>WineX\System</Filter>
+    </ClCompile>
+    <ClCompile Include="WineX\Transform.cpp">
+      <Filter>WineX\Components\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="WineX\BaseComponent.cpp">
+      <Filter>WineX\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="WineX\XMesh.cpp">
+      <Filter>WineX\Components\XMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="WineX\Light.cpp">
+      <Filter>WineX\Components\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="WineX\DirLight.cpp">
+      <Filter>WineX\Components\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="WineX\PointLight.cpp">
+      <Filter>WineX\Components\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="WineX\SpotLight.cpp">
+      <Filter>WineX\Components\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="WineX\Camera.cpp">
+      <Filter>WineX\Components\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="WineX\Font.cpp">
+      <Filter>WineX\Components\Font</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WineX\Application.h">
+      <Filter>WineX\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="WineX\D3DApp.h">
+      <Filter>WineX\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="WineX\WinApp.h">
+      <Filter>WineX\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="WineX\Scene.h">
+      <Filter>WineX\System</Filter>
+    </ClInclude>
+    <ClInclude Include="WineX\Time.h">
+      <Filter>WineX\System</Filter>
+    </ClInclude>
+    <ClInclude Include="WineX\WineDefines.h">
+      <Filter>WineX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="WineX\Director.h">
+      <Filter>WineX\System</Filter>
+    </ClInclude>
+    <ClInclude Include="WineX\WineX.h">
+      <Filter>WineX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="HelloWorld.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="WineX\WineObject.h">
+      <Filter>WineX\System</Filter>
+    </ClInclude>
+    <ClInclude Include="WineX\TypeHelper.h">
+      <Filter>WineX\System</Filter>
+    </ClInclude>
+    <ClInclude Include="WineX\Transform.h">
+      <Filter>WineX\Components\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="WineX\BaseComponent.h">
+      <Filter>WineX\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="WineX\XMesh.h">
+      <Filter>WineX\Components\XMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="WineX\Light.h">
+      <Filter>WineX\Components\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="WineX\DirLight.h">
+      <Filter>WineX\Components\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="WineX\PointLight.h">
+      <Filter>WineX\Components\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="WineX\SpotLight.h">
+      <Filter>WineX\Components\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="WineX\Camera.h">
+      <Filter>WineX\Components\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="WineX\Font.h">
+      <Filter>WineX\Components\Font</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
