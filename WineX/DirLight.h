@@ -14,7 +14,7 @@ namespace WineX
 
 	public:
 		DirLight(const int index);
-		~DirLight();
+		virtual ~DirLight();
 
 		void Init() override;
 		void Update() override;

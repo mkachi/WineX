@@ -18,7 +18,7 @@ namespace WineX
 
 	public:
 		SpotLight(const int index);
-		~SpotLight();
+		virtual ~SpotLight();
 
 		void Init() override;
 		void Update() override;

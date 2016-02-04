@@ -10,6 +10,7 @@ namespace WineX
 	protected:
 		std::string		_name;
 		WineObject*		_parent;
+		bool			_enable;
 
 	public:
 		BaseComponent();
@@ -23,6 +24,9 @@ namespace WineX
 
 		virtual void SetParent(WineObject* parent);
 		WineObject& GetParent() { return *_parent; }
+
+		virtual void SetEnable(const bool enable);
+		bool IsEnable() const { return _enable; }
 
 	};
 }

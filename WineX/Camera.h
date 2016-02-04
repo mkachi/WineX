@@ -20,7 +20,7 @@ namespace WineX
 
 	public:
 		Camera();
-		~Camera();
+		virtual ~Camera();
 
 		void SetLook(Vector3 look);
 		void SetLook(const float x, const float y, const float z);

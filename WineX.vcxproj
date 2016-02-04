@@ -32,6 +32,7 @@
     <ClCompile Include="WineX\PointLight.cpp" />
     <ClCompile Include="WineX\Scene.cpp" />
     <ClCompile Include="WineX\SpotLight.cpp" />
+    <ClCompile Include="WineX\Sprite.cpp" />
     <ClCompile Include="WineX\Time.cpp" />
     <ClCompile Include="WineX\Transform.cpp" />
     <ClCompile Include="WineX\WinApp.cpp" />
@@ -51,6 +52,7 @@
     <ClInclude Include="WineX\PointLight.h" />
     <ClInclude Include="WineX\Scene.h" />
     <ClInclude Include="WineX\SpotLight.h" />
+    <ClInclude Include="WineX\Sprite.h" />
     <ClInclude Include="WineX\Time.h" />
     <ClInclude Include="WineX\Transform.h" />
     <ClInclude Include="WineX\TypeHelper.h" />

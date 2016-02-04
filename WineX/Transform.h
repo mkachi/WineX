@@ -15,7 +15,7 @@ namespace WineX
 
 	public:
 		Transform();
-		~Transform();
+		virtual ~Transform();
 
 		void Init() override;
 		void Update() override;

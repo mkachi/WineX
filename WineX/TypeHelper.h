@@ -6,6 +6,7 @@
 #include "SpotLight.h"
 #include "Camera.h"
 #include "Font.h"
+#include "Sprite.h"
 
 using namespace WineX;
 
@@ -36,3 +37,4 @@ TYPE_HELPER_DEFINE_TYPES(PointLight, "PointLight");
 TYPE_HELPER_DEFINE_TYPES(SpotLight, "SpotLight");
 TYPE_HELPER_DEFINE_TYPES(Camera, "Camera");
 TYPE_HELPER_DEFINE_TYPES(Font, "Font");
+TYPE_HELPER_DEFINE_TYPES(Sprite, "Sprite");

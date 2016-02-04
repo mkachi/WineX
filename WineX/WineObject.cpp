@@ -74,7 +74,10 @@ void WineObject::Update()
 	{
 		for (auto& C : _components)
 		{
-			C.second->Update();
+			if (C.second->IsEnable())
+			{
+				C.second->Update();
+			}
 		}
 	}
 }

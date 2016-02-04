@@ -37,6 +37,9 @@
     <Filter Include="WineX\Components\Font">
       <UniqueIdentifier>{12579902-0cf9-4c67-aeaa-5f7b20f86405}</UniqueIdentifier>
     </Filter>
+    <Filter Include="WineX\Components\Sprite">
+      <UniqueIdentifier>{42de61e6-c4a8-4264-b13c-77065e99ab66}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WineX\Application.cpp">
@@ -92,6 +95,9 @@
     </ClCompile>
     <ClCompile Include="WineX\Font.cpp">
       <Filter>WineX\Components\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="WineX\Sprite.cpp">
+      <Filter>WineX\Components\Sprite</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -154,6 +160,9 @@
     </ClInclude>
     <ClInclude Include="WineX\Font.h">
       <Filter>WineX\Components\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="WineX\Sprite.h">
+      <Filter>WineX\Components\Sprite</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

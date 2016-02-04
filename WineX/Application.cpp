@@ -1,4 +1,5 @@
 #include "Application.h"
+#include "Director.h"
 
 using namespace WineX;
 
@@ -59,6 +60,7 @@ void Application::Run()
 
 void Application::Destroy()
 {
+	Director::getInstance()->Destroy();
 	SAFE_DELETE(_d3dApp);
 	SAFE_DELETE(_winApp);
 	SAFE_DELETE(_instance);

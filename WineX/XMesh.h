@@ -24,7 +24,7 @@ namespace WineX
 
 	public:
 		XMesh(const std::wstring& filename);
-		~XMesh();
+		virtual ~XMesh();
 
 		void SetMaterial(D3DMATERIAL9* material);
 		D3DMATERIAL9* GetMaterial() { return _Material; }

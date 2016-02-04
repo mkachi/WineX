@@ -14,7 +14,7 @@ namespace WineX
 
 	public:
 		PointLight(const int index);
-		~PointLight();
+		virtual ~PointLight();
 
 		void Init() override;
 		void Update() override;

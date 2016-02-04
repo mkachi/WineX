@@ -3,6 +3,7 @@
 using namespace WineX;
 
 BaseComponent::BaseComponent()
+	: _enable(true)
 {
 
 }
@@ -20,4 +21,9 @@ void BaseComponent::SetName(const std::string& name)
 void BaseComponent::SetParent(WineObject* parent)
 {
 	_parent = parent;
+}
+
+void BaseComponent::SetEnable(const bool enable)
+{
+	_enable = enable;
 }

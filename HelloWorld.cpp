@@ -16,6 +16,11 @@ HelloWorld* HelloWorld::CreateScene()
 
 bool HelloWorld::Init()
 {
+	sprite = new WineObject("SpriteTest");
+	sprite->AddComponent(new Sprite(L"ImageTest.png"));
+	sprite->InitComponent();
+	sprite->GetComponent<Transform>()->SetPosition(0.0f, 0.0f, 0.0f);
+
 	pan = new WineObject("Pan");
 	pan->AddComponent(new XMesh(L"ChessBoard.x"));
 	pan->InitComponent();
@@ -66,6 +71,7 @@ void HelloWorld::Update(float dt)
 	light->GetComponent<Transform>()->SetPositionX(cos(r));
 	light->GetComponent<Transform>()->SetPositionZ(sin(r));
 
+	sprite->Update();
 	tiger->Update();
 	sun->Update();
 	light->Update();
@@ -76,6 +82,7 @@ void HelloWorld::Update(float dt)
 
 void HelloWorld::Release()
 {
+	SAFE_DELETE(sprite);
 	SAFE_DELETE(pan);
 	SAFE_DELETE(tiger);
 	SAFE_DELETE(camera);

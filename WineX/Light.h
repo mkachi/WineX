@@ -16,7 +16,7 @@ namespace WineX
 
 	public:
 		Light();
-		~Light();
+		virtual ~Light();
 
 		virtual void SetDiffuse(ColorRGBA diffuse);
 		virtual const ColorRGBA GetDiffuse() { return _diffuse; }

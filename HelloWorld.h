@@ -6,6 +6,7 @@ class HelloWorld
 	: public WineX::Scene
 {
 public:
+	WineX::WineObject* sprite;
 	WineX::WineObject* pan;
 	WineX::WineObject* tiger;
 	WineX::WineObject* camera;
@@ -15,5 +16,5 @@ public:
 
 	float r = 0.0f;
 
-	CREATE_SCENE(HelloWorld);
+	CREATE_SCENE(HelloWorld)
 };

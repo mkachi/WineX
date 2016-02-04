@@ -22,7 +22,7 @@ namespace WineX
 
 	public:
 		Font(const std::wstring& text, const int fontSize, const std::wstring& font);
-		~Font();
+		virtual ~Font();
 
 		void SetString(const std::wstring& text);
 		void SetColor(ColorRGBA color);
